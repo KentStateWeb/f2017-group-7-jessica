@@ -1,0 +1,50 @@
+* {
+  font-family: sans-serif;
+}
+
+/* Header */
+
+header li {
+  display: inline;
+}
+
+header {
+				text-align: center;
+				padding: 1em;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* Navigation */
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-align: center;
+    padding: 1em;
+  }
+
+/* Table */
+
+table {
+    width: 100%;
+}
+
+th {
+    height: 50px;
+}
+
+td {
+  padding-bottom: 15px;
+  margin: auto;
+  text-align: center;
+}
+
+th {
+    padding-top: .8em;
+    padding-bottom: .8em;
+    text-align: center;
+  }
