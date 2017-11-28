@@ -2,35 +2,82 @@
 <html>
 <header>
   <meta charset="utf-8">
-
-  <h1>The Ohio<span> Chop Shop </span>Hair Salon</h1>
-
-  <h2>11-14-2017:Templates</h2>
+  <head>
+    <img class="logo" src="https://rwdkent.com/class/groups/assets/group9/ChopShopSalonLogo-01.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+  </head>
 	<nav>
 		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Services</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Specials</a></li>
+			<li><a href="index.html" id="button">Home</a></li>
+			<li><a href="services.html" "#" id="button">Services</a></li>
+			<li><a href="about.html" "#" id="button">About Us</a></li>
 		</ul>
 	</nav>
 </header>
 
 <body>
     <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
-<img src="SeniorStaffTeam.jpg">
+    <div class="carousel js-flickity" data-flickity-options='{ "imagesLoaded":"true", "autoPlay": "true", "watchCSS":"true" }'
+             >
+      <div class="carousel-cell">
+                <img src="SeniorStaffTeam.jpg">
+        </div>
+      <div class="carousel-cell">
+                <img src="Desk.jpg">
+        </div>
+        <div class="carousel-cell">
+                <img src="hair-salon-mountwaverley-how-to-update-hair-colour.jpg">
+        </div>
+        <div class="carousel-cell">
+                <img src="StylingRoom.jpg">
+        </div>
+    </div>
 
-<h2>Welcome!</h2>
-  <p>Here at The Ohio Chop Shop, our trusted and knowledgeable stylists will make your vision a reality. The Ohio Chop Shop Team are always up to date on the latest trends and styles.</p>
-
+<h2 class="intro">Welcome</h2>
+  <div class="welcome-p">
+  <p>Here at The Ohio Chop Shop, our trusted and knowledgeable stylists will make your vision a reality. The Ohio Chop Shop Team are always up to date on the latest trends and styles. Check out our specials to see what monthly beauty deals we have, or visit our services page to explore all of our options! If you have any questions on pricing or treatments, please feel free to contact us.</p>
+</div>
 <h3>Specials</h3>
-  <nav>
-    <ul>
-      <li><a href="#">Manicures</a></li>
-      <li><a href="#">Facials</a></li>
-      <li><a href="#">Pedicures</a></li>
+  <div class="specials">
+      <img class="facial" src="Dead-Skin-care3.jpg" />
+      <img class="manicure" src="resize.jpeg" />
+      <img class="hair" src="hair-salon-beaconsfield-should-you-layer-curly-hair.jpg" />
+  </div>
+
+<h3>Contact Us</h3>
+
+  <div class="container">
+    <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+
+  <script src="https://npmcdn.com/flickity@1.2/dist/flickity.pkgd.min.js"></script>
+  <link rel="stylesheet" href="https://npmcdn.com/flickity@1.2/dist/flickity.min.css">
 
     </body>
 
     <footer>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-snapchat-ghost"></a>
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </footer>
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Quicksand" rel="stylesheet">
