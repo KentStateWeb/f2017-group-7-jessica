@@ -13,6 +13,7 @@
   font-size: 40px;
 }
 
+
 h2 {
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
@@ -46,6 +47,39 @@ img {
 .team, .location {
   text-align: center;
   font-size: 25px;
+}
+
+/* H2 & H3 Styles */
+
+.special-p, .phone, .items, .about-p, .directions, .welcome-p {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.welcome-p {
+  margin: auto;
+  font-size: 18px;
+  width: 55%;
+  padding-bottom: 5em;
+}
+
+.special-p, .phone, .items, .about-p, .directions, .welcome-p {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.phone {
+  padding-top: 2em;
+}
+
+.items {
+  padding-top: 2em;
+}
+
+.about-p {
+}
+
+.directions {
 }
 
   /* Body */
@@ -104,43 +138,6 @@ nav a {
 .carousel:after {
   content: 'flickity';
   display: none;
-}
-
-/* H2 Styles */
-
-.welcome-p {
-  font-family: 'Quicksand', sans-serif;
-  margin: auto;
-  font-size: 18px;
-  width: 55%;
-  text-align: center;
-  padding-bottom: 5em;
-}
-
-.special-p {
-  font-family: 'Quicksand', sans-serif;
-}
-
-.phone {
-  font-family: 'Quicksand', sans-serif;
-  text-align: center;
-  padding-top: 2em;
-}
-
-.items {
-  font-family: 'Quicksand', sans-serif;
-  text-align: center;
-  padding-top: 2em;
-}
-
-.about-p {
-  font-family: 'Quicksand', sans-serif;
-  text-align: center;
-}
-
-.map {
-  content: center;
-  align-content: center;
 }
 
   /* contact */
