@@ -56,7 +56,7 @@ img {
   text-align: center;
 }
 
-.welcome-p {
+.welcome-p, .aboutus {
   margin: auto;
   font-size: 18px;
   width: 55%;
@@ -68,21 +68,25 @@ img {
   text-align: center;
 }
 
-.phone {
+.phone, .items {
   padding-top: 2em;
-}
-
-.items {
-  padding-top: 2em;
-}
-
-.about-p {
-}
-
-.directions {
 }
 
   /* Body */
+
+    /* Navigation */
+
+  nav ul {
+      font-family: 'Josefin Sans', sans-serif;
+      justify-content: space-between;
+      list-style-type: none;
+
+  }
+  nav a {
+  color: #F9E9CA;
+  display: inline-block;
+  text-decoration: none;
+  }
 
   figure {
     width: 90%;
@@ -96,10 +100,23 @@ img {
     font-size: 20px;
   }
 
-@media screen and (min-width: 500px) {
+  @media screen and (max-width: 750px) {
+    p {
+      font-size: 20px;
+    }
+    .logo {
+      display: block;
+      margin: auto;
+    }
+    h2, h3 {
+      font-size: 30px;
+    }
+  }
+
+@media screen and (min-width: 750px) {
   .specials {
     display: flex;
-width: 80%;
+width: 50%;
 margin: 0 auto;
 justify-content: space-between;
   }
@@ -109,17 +126,21 @@ justify-content: space-between;
   nav ul {
       font-family: 'Josefin Sans', sans-serif;
       display: flex;
-      width: 60%;
-      margin: 0 auto;
       justify-content: space-between;
       list-style-type: none;
       padding: 2em;
 }
 nav a {
   color: #F9E9CA;
-  display: inline-block;
   text-decoration: none;
-}}
+}
+}
+.map {
+  display: block;
+  margin: auto;
+}
+
+
 
     /* carousel */
 
